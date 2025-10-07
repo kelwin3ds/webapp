@@ -52,15 +52,6 @@ O sistema permite:
 
 ---
 
-### 📊 Estatísticas (Exemplo Estético)
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=kelwinfelipe&locale=pt-br&mode=daily&theme=dracula&hide_border=false&border_radius=5" height="150" alt="streak graph" />
-  <img src="https://github-profile-trophy.vercel.app?username=kelwinfelipe&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8" height="150" alt="trophy graph" />
-</div>
-
----
-
 ### 🕹️ Contribuição
 
 Sinta-se à vontade para abrir issues, sugerir melhorias ou enviar pull requests.
