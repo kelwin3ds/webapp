@@ -1,52 +1,80 @@
-<h1 align="center">Hey 👋What's Up?</h1>
+<h1 align="center">👋 Olá, seja bem-vindo ao WEBAPP!</h1>
 
 ###
+
+<h3 align="center">💻 Projeto desenvolvido por <strong>Kelwin Felipe</strong></h3>
+
+<p align="center">
+  <strong>Série:</strong> 3º DS <br>
+  <strong>Escola:</strong> Professor Joaquim de Moura Candelaria
+</p>
+
+---
+
+### 🧾 Descrição do Projeto
+
+Este projeto é uma aplicação web para **autenticação e gerenciamento de usuários**, desenvolvida com **HTML, CSS e JavaScript** no front-end, **PHP** no back-end e **MySQL** como banco de dados.
+
+O sistema permite:
+
+* ✅ Login com validação de credenciais
+* 🔢 Registro da quantidade de acessos efetuados
+* 🚫 Bloqueio automático após três tentativas inválidas
+* 🆕 Identificação do primeiro acesso
+* 🔐 Troca e manutenção de senha
+* 🧍 Cadastro de novos usuários
+
+---
+
+### ⚙️ Tecnologias Utilizadas
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=ts" height="60" alt="typescript logo"  />
+  <img src="https://skillicons.dev/icons?i=html" height="60" alt="HTML logo" />
   <img width="12" />
-  <img src="https://skillicons.dev/icons?i=nextjs" height="60" alt="nextjs logo"  />
+  <img src="https://skillicons.dev/icons?i=css" height="60" alt="CSS logo" />
   <img width="12" />
-  <img src="https://skillicons.dev/icons?i=tailwind" height="60" alt="tailwindcss logo"  />
+  <img src="https://skillicons.dev/icons?i=javascript" height="60" alt="JavaScript logo" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/storybook/storybook-original.svg" height="60" alt="storybook logo"  />
+  <img src="https://skillicons.dev/icons?i=php" height="60" alt="PHP logo" />
   <img width="12" />
-  <img src="https://skillicons.dev/icons?i=graphql" height="60" alt="graphql logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=go" height="60" alt="go logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=rust" height="60" alt="rust logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=nestjs" height="60" alt="nestjs logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=py" height="60" alt="python logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=aws" height="60" alt="amazonwebservices logo"  />
+  <img src="https://skillicons.dev/icons?i=mysql" height="60" alt="MySQL logo" />
 </div>
 
-###
+---
+
+### 🧩 Estrutura do Projeto
+
+| Camada             | Tecnologia            | Descrição                                    |
+| :----------------- | :-------------------- | :------------------------------------------- |
+| **Front-end**      | HTML, CSS, JavaScript | Interface e interatividade                   |
+| **Back-end**       | PHP                   | Processamento das requisições e autenticação |
+| **Banco de Dados** | MySQL                 | Armazenamento dos dados de usuários          |
+
+---
+
+### 📊 Estatísticas (Exemplo Estético)
 
 <div align="center">
-  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
-  <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitter logo"  />
-  <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="discord logo"  />
-  <img src="https://img.shields.io/static/v1?message=Twitch&logo=twitch&label=&color=9146FF&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitch logo"  />
-  <img src="https://img.shields.io/static/v1?message=dev.to&logo=dev.to&label=&color=0A0A0A&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="devto logo"  />
+  <img src="https://streak-stats.demolab.com?user=kelwinfelipe&locale=pt-br&mode=daily&theme=dracula&hide_border=false&border_radius=5" height="150" alt="streak graph" />
+  <img src="https://github-profile-trophy.vercel.app?username=kelwinfelipe&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8" height="150" alt="trophy graph" />
 </div>
 
-###
+---
+
+### 📞 Contato
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=maurodesouza&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
-  <img src="https://github-profile-trophy.vercel.app?username=maurodesouza&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
+  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&style=for-the-badge" height="25" alt="linkedin logo" />
+  <img src="https://img.shields.io/static/v1?message=GitHub&logo=github&label=&color=181717&logoColor=white&style=for-the-badge" height="25" alt="github logo" />
 </div>
 
-###
+---
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/pacman-contribution-graph.svg">
-</picture>
+### 🕹️ Contribuição
 
-###
+Sinta-se à vontade para abrir issues, sugerir melhorias ou enviar pull requests.
+Todo feedback é bem-vindo! 💬
+
+---
+
+<p align="center">Feito com 💙 por <strong>Kelwin Felipe</strong></p>
