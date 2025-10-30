@@ -51,22 +51,22 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                         } else {
                             echo "Erro: " . $sql . "<br>" . mysqli_error($conexao);
                         }
-                        header('Location: index.php');
+                        header('Location: index.php#1');
                         exit;
                     } else {
                         $_SESSION['msg_alert'] = ['danger', "Senha incorreta. Você tem mais " . 2 - $linha['tent_senha'] . " tentativas!"];
-                        header('Location: index.php');
+                        header('Location: index.php#2');
                         exit;
                     };
                 };
             } else {
                 $_SESSION['msg_alert'] = ['danger', "Usuário bloqueado!"];
-                header('Location: index.php');
+                header('Location: index.php#3');
                 exit;
             };
         } else {
             $_SESSION['msg_alert'] = ['danger', "Login incorreto!"];
-            header('Location: index.php');
+            header('Location: index.php#4');
             exit;
         }
     }
