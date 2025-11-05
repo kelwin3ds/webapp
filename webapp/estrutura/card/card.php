@@ -1,4 +1,4 @@
-<div class="card border-0">
+<div class="card bg-transparent border-0">
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh9DgZWiqz5CRehwAZdFLq-cmAbwmYaMWk1g&s" class="card-img-top object-fit-cover rounded-3" style="aspect-ratio: 16/9;" alt="...">
     <div class="card-body px-0 pb-0">
         <small class="card-text text-muted">Teatro dos Madagascar - Parana, Bahia</small>

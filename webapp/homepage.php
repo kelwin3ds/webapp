@@ -45,7 +45,6 @@ $resultado = mysqli_query($conexao, $sql);
         width: 80px;
         height: 80px;
         border-radius: 50%;
-        background: #f8f9fa;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -69,7 +68,7 @@ $resultado = mysqli_query($conexao, $sql);
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="bg-body-tertiary">
+<body>
     <?php include 'estrutura/navbar/navbar.php'; ?>
     <?php if (isset($_SESSION['msg_alert'])): ?>
         <div class="position-fixed d-flex justify-content-center start-50 translate-middle-x mb-5 z-3 bottom-0">
@@ -125,7 +124,7 @@ $resultado = mysqli_query($conexao, $sql);
                 <button class="btn btn-light position-absolute start-0 top-50 translate-middle-y z-1 shadow rounded-circle" data-scroll="#scroll-categories" style="display: none;"><i class="bi bi-chevron-left"></i></button>
                 <button class="btn btn-light position-absolute end-0 top-50 translate-middle-y z-1 shadow rounded-circle" data-scroll="#scroll-categories" style="display: none;"><i class="bi bi-chevron-right"></i></button>
                 <div id="scroll-categories" class="d-flex flex-row gap-3">
-                    <div class="d-flex gap-5">
+                    <div class="d-flex gap-5 w-100 justify-content-xxl-between">
                         <a href="#scroll-1" class="category-item text-primary-emphasis text-decoration-none">
                             <div class="category-circle"><i class="bi bi-music-note"></i></div>
                             <div class="category-label">Música</div>
@@ -171,7 +170,7 @@ $resultado = mysqli_query($conexao, $sql);
                 <button class="btn btn-light position-absolute end-0 top-50 translate-middle-y z-1 shadow rounded-circle" data-scroll="#scroll-1" style="display: none;"><i class="bi bi-chevron-right"></i></button>
                 <div id="scroll-1" class="d-flex flex-row gap-3">
                     <?php for ($i = 0; $i <= 10; $i++): ?>
-                        <div class="col-3">
+                        <div class="col-4 col-xl-3 col-xxl-2">
                             <?php include 'estrutura/card/card.php' ?>
                         </div>
                     <?php endfor ?>
@@ -187,7 +186,7 @@ $resultado = mysqli_query($conexao, $sql);
                 <button class="btn btn-light position-absolute end-0 top-50 translate-middle-y z-1 shadow rounded-circle" data-scroll="#scroll-2" style="display: none;"><i class="bi bi-chevron-right"></i></button>
                 <div id="scroll-2" class="d-flex flex-row gap-3">
                     <?php for ($i = 0; $i <= 10; $i++): ?>
-                        <div class="col-3">
+                        <div class="col-4 col-xl-3 col-xxl-2">
                             <?php include 'estrutura/card/card.php' ?>
                         </div>
                     <?php endfor ?>
@@ -203,7 +202,7 @@ $resultado = mysqli_query($conexao, $sql);
                 <button class="btn btn-light position-absolute end-0 top-50 translate-middle-y z-1 shadow rounded-circle" data-scroll="#scroll-3" style="display: none;"><i class="bi bi-chevron-right"></i></button>
                 <div id="scroll-3" class="d-flex flex-row gap-3">
                     <?php for ($i = 0; $i <= 10; $i++): ?>
-                        <div class="col-3">
+                        <div class="col-4 col-xl-3 col-xxl-2">
                             <?php include 'estrutura/card/card.php' ?>
                         </div>
                     <?php endfor ?>
@@ -219,7 +218,7 @@ $resultado = mysqli_query($conexao, $sql);
                 <button class="btn btn-light position-absolute end-0 top-50 translate-middle-y z-1 shadow rounded-circle" data-scroll="#scroll-4" style="display: none;"><i class="bi bi-chevron-right"></i></button>
                 <div id="scroll-4" class="d-flex flex-row gap-3">
                     <?php for ($i = 0; $i <= 10; $i++): ?>
-                        <div class="col-3">
+                        <div class="col-4 col-xl-3 col-xxl-2">
                             <?php include 'estrutura/card/card.php' ?>
                         </div>
                     <?php endfor ?>
@@ -235,7 +234,7 @@ $resultado = mysqli_query($conexao, $sql);
                 <button class="btn btn-light position-absolute end-0 top-50 translate-middle-y z-1 shadow rounded-circle" data-scroll="#scroll-5" style="display: none;"><i class="bi bi-chevron-right"></i></button>
                 <div id="scroll-5" class="d-flex flex-row gap-3">
                     <?php for ($i = 0; $i <= 10; $i++): ?>
-                        <div class="col-3">
+                        <div class="col-4 col-xl-3 col-xxl-2">
                             <?php include 'estrutura/card/card.php' ?>
                         </div>
                     <?php endfor ?>
@@ -251,7 +250,7 @@ $resultado = mysqli_query($conexao, $sql);
                 <button class="btn btn-light position-absolute end-0 top-50 translate-middle-y z-1 shadow rounded-circle" data-scroll="#scroll-6" style="display: none;"><i class="bi bi-chevron-right"></i></button>
                 <div id="scroll-6" class="d-flex flex-row gap-3">
                     <?php for ($i = 0; $i <= 10; $i++): ?>
-                        <div class="col-3">
+                        <div class="col-4 col-xl-3 col-xxl-2">
                             <?php include 'estrutura/card/card.php' ?>
                         </div>
                     <?php endfor ?>
@@ -267,7 +266,7 @@ $resultado = mysqli_query($conexao, $sql);
                 <button class="btn btn-light position-absolute end-0 top-50 translate-middle-y z-1 shadow rounded-circle" data-scroll="#scroll-7" style="display: none;"><i class="bi bi-chevron-right"></i></button>
                 <div id="scroll-7" class="d-flex flex-row gap-3">
                     <?php for ($i = 0; $i <= 10; $i++): ?>
-                        <div class="col-3">
+                        <div class="col-4 col-xl-3 col-xxl-2">
                             <?php include 'estrutura/card/card.php' ?>
                         </div>
                     <?php endfor ?>
@@ -283,7 +282,7 @@ $resultado = mysqli_query($conexao, $sql);
                 <button class="btn btn-light position-absolute end-0 top-50 translate-middle-y z-1 shadow rounded-circle" data-scroll="#scroll-8" style="display: none;"><i class="bi bi-chevron-right"></i></button>
                 <div id="scroll-8" class="d-flex flex-row gap-3">
                     <?php for ($i = 0; $i <= 10; $i++): ?>
-                        <div class="col-3">
+                        <div class="col-4 col-xl-3 col-xxl-2">
                             <?php include 'estrutura/card/card.php' ?>
                         </div>
                     <?php endfor ?>
